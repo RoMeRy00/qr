@@ -1,0 +1,62 @@
+body {
+    background-color: #d4e1ee;
+}
+
+main {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+article {
+    width: 320px;
+    height: 497px;
+    border-radius: 20px;
+    filter: drop-shadow(0px 25px 12.5px rgba(0, 0, 0, 0.05));
+    background-color: #ffffff;
+    padding: 24px;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+h3 {
+    /* налаштування для шрифта */
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+
+    /* кольор */
+    color: #1F314F;
+    margin-bottom: 16px;
+}
+
+p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.1875px;
+
+    /* Grey */
+    color: #7D889E;
+
+    width: 256px;
+    margin-left: auto;
+    margin-right: auto;
+}
